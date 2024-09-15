@@ -1,0 +1,162 @@
+// style for change change direction document
+body:dir(ltr) {
+  #landing-icon {
+    transform: rotate(180deg) !important;
+  }
+  .btn-icon,
+  .btn-icon-dark {
+    &::after {
+      transform: rotate(180deg) !important;
+    }
+  }
+
+  .educational-calendar .educational-contant .time-container .time-lable {
+    li {
+      &:not(:last-child)::after {
+        left: -1em;
+        width: 0;
+      }
+      &:last-child::after {
+        left: -2em;
+        width: 0;
+      }
+    }
+
+    .time-title {
+      span:first-child {
+        margin-left: 1em;
+      }
+    }
+  }
+  .svg-icon {
+    margin-right: 0.4em;
+  }
+  .slider {
+    .custom-swiper-button-prev,
+    .custom-swiper-button-next {
+      transform: rotate(180deg);
+    }
+    .custom-swiper-button-prev {
+      left: 18em;
+    }
+  }
+  .btn-more-information {
+    @media screen and (min-width: 768px) {
+      margin-left: 0;
+      margin-right: 1em;
+    }
+  }
+  .custom-info-item {
+    @media screen and (min-width: 992px) {
+      transform: rotate(180deg);
+    }
+  }
+  .university-info {
+    @media screen and (min-width: 992px) {
+      transform: translateX(-18.68em);
+    }
+  }
+  .border-circul-container {
+    @media screen and (min-width: 992px) {
+      transform: rotate(180deg);
+      .bg-img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .custom-dropdown-container .custom-dropdown {
+    left: 0 !important;
+    right: auto !important;
+  }
+  @media screen and (min-width: 992px) {
+    .university-info .university-text-container {
+      transform: translate(5em, 0em);
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .nav-drawer-container {
+      left: -100em;
+
+      &.show {
+        left: 0em !important;
+        .custom-dropdown-container {
+          background-position: left;
+          .sub-menu-item-desktop {
+            // padding-left: 3.5em;
+            .title {
+              // margin-left: -3em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .swiper-button-prev {
+    &.news-btn {
+      right: auto !important;
+      left: -0.3% !important;
+      transform: rotate(180deg);
+    }
+  }
+  .swiper-button-next {
+    &.news-btn {
+      left: auto !important;
+      right: -1% !important;
+      transform: rotate(0deg);
+    }
+  }
+  .modalSwiper{
+    .swiper-button-prev {
+      &.news-btn {
+        right: auto !important;
+        left: 1.7% !important;
+        transform: rotate(180deg);
+      }
+    }
+    .swiper-button-next {
+      &.news-btn {
+        left: auto !important;
+        right: 1% !important;
+        transform: rotate(0deg);
+      }
+    }
+  }
+  .custom-item
+    ul
+    .navBar-item
+    .custom-dropdown-container
+    .custom-dropdown-wraper {
+    .sub-menu-item-desktop .title {
+      text-align: left;
+    }
+  }
+  .card-img {
+    &::before {
+      background: linear-gradient(
+        90deg,
+        #fff 0%,
+        rgba(255, 255, 255, 0) 100%
+      ) !important;
+    }
+  }
+  .breadcrumb-container .breadcrumb-item + .breadcrumb-item::before {
+    left: -1.5em !important;
+  }
+  .sub-items-wraper {
+    margin-right: 0 !important;
+    margin-left: 1.5em !important;
+  }
+  @media screen and (max-width: 992px) {
+    .custom-dropdown-container .custom-dropdown-wraper {
+      @media screen and (max-width: 992px) {
+        border-left: 0.1em solid rgba(189, 197, 221, 1);
+        border-right: none !important;
+        &::before,
+        &::after {
+          left: -10px !important;
+        }
+      }
+    }
+  }
+}

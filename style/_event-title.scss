@@ -1,0 +1,61 @@
+@import "./variables.scss";
+
+.events {
+    background-image: url("../img/Group 35041.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom:3em ;
+    .event-title {
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+    
+      h5 {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 2.35em;
+        color: $primary-color;
+    
+        @media screen and (min-width: 700px) {
+          font-size: 2em;
+          font-weight: 900;
+          line-height: 3.3em;
+          color: rgba(12, 24, 107, 1);
+        }
+    
+        @media screen and (min-width: 992px) {
+          font-size: 2em;
+          font-weight: 900;
+          line-height: 3.1em;
+        }
+      }
+    }
+    .more-event {
+      display: flex;
+      justify-content: center;
+      .btn-more-event {
+        width: 16.56em;
+        height: 3.83em;
+        font-size: 1.25em;
+        font-weight: 400;
+        line-height: 1.94em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.93em;
+        color: #fff;
+        transition: all 0.3s linear;
+        margin-top: 3.75em;
+        svg {
+          margin-right: 1em;
+          width: 1.5em;
+          height: 1.5em;
+          filter: invert(0);
+        }
+        &:hover {
+          background: rgba(149, 154, 189, 1);
+          opacity: 1;
+        }
+      }
+    }
+  }

@@ -1,0 +1,317 @@
+// Variables
+$dark-color: rgba(0, 5, 43, 1);
+$light-color: rgba(36, 60, 230, 1);
+$dark-blue-color: rgba(17, 64, 136, 1);
+
+
+
+$footer-light-color: rgba(4, 37, 75, 1);
+$footer-dark-color: rgba(3, 14, 28, 1);
+
+// header
+$IRANSans-font: "IRANSans";
+$hover-opacity: 0.5;
+$padding-large: 2.5em;
+$max-width-container: 94.38em;
+$main-height-xs: 24.5em;
+$main-height-md: 30.75em;
+$main-height-lg: 46.88em;
+$bg-image: url("../img/Rectangle 1.png");
+$bg-gradient-dark:linear-gradient(180deg, #010F2B 0%, rgba(17, 34, 68, 0) 100%);
+$bg-gradient-light: linear-gradient(
+  180deg,
+  #274185 0%,
+  rgba(65, 90, 149, 0.92) 33.04%,
+  rgba(82, 106, 159, 0.76) 48.97%,
+  rgba(135, 156, 191, 0) 100%
+);
+$white-color: rgba(255, 255, 255, 1);
+$bg-sub-menu: rgba(247, 249, 252, 1);
+$mobile-nav-height: 6.25em;
+$stroke-color: rgba(0, 5, 43, 1);
+$custom-item-margin: 3.63em;
+$dropdown-border: rgba(206, 209, 228, 1);
+$dropdown-color: rgba(36, 60, 230, 1);
+$dropdown-item-color: rgba(7, 59, 112, 1);
+$drawer-width: 17.5em;
+$drawer-item-size: 0.875em;
+$drawer-item-weight: 700;
+$drawer-item-line-height: 1.37em;
+$bg-drawer-img: url("../img/Rectangle 9384.png");
+$submenu-title-size: 0.75em;
+$submenu-title-weight: 400;
+$submenu-title-line-height: 1.17em;
+$submenu-title-color: rgba(7, 59, 112, 1);
+$submenu-item-color: rgba(98, 110, 148, 1);
+$slider-width: 19.5em;
+$slider-height: 13em;
+$slider-position-top: 32.5em;
+$slider-position-left: 3.33em;
+$border-color: rgba(191, 196, 213, 0.4);
+$opacity-half: 0.5;
+
+// home landing
+$bg-uni-info-dark-color: rgba(1, 15, 43, 1);
+$bg-uni-info-light-color: rgba(39, 65, 133, 1);
+$bg-faculty-uni-info: rgba(255, 149, 24, 1);
+$bg-uni-info-image: url("../img/Frame 34775.png");
+$landing-title-color: #fff;
+$landing-title-height-xs: 2.88em;
+$landing-title-height-md: 4.81em;
+$landing-title-font-size-xs: 0.875em;
+$landing-title-font-size-md: 1.125em;
+$landing-title-font-weight: 700;
+$landing-title-line-height-xs: 1.37em;
+$landing-title-line-height-md: 1.76em;
+
+
+// news 
+// Variables
+$bg-related-news: rgba(245, 248, 251, 1);
+$IRANSans-font: "IRANSans";
+$Peyda-font: "Peyda";
+
+// Headline
+$headline-padding-right: 0.94em;
+$headline-margin-top: 1.88em;
+$headline-padding-bottom: 1.88em;
+$headline-font-size-xs: 1.75em;
+$headline-font-size-md: 2em;
+$headline-font-size-lg: 2em;
+$headline-font-weight-lg: 900;
+$headline-line-height-xs: 2.75em;
+$headline-line-height-lg: 3.1em;
+$headline-color: rgba(0, 70, 149, 1);
+
+// Buttons
+$btn-font-size: 1.125em;
+$btn-font-weight: 400;
+$btn-width: 12.56em;
+$btn-height: 3.75em;
+$btn-bg-color: rgba(12, 24, 107, 1);
+$btn-border: none;
+$btn-color: rgba(255, 255, 255, 1);
+$btn-border-radius: 0.87em;
+$btn-transition: all 0.3s linear;
+$btn-hover-scale: 1.1;
+$btn-hover-cursor: pointer;
+
+// Container
+$container-padding: 2.5em;
+$container-max-width: 94.37em;
+
+// Cards
+$card-border-radius: 0.94em;
+$card-border: 0.6px solid rgba(149, 154, 189, 1);
+$card-margin-bottom: 1.25em;
+$card-bg-color: white;
+$card-img-margin-top: 0.5em;
+$card-img-padding: 0.5em;
+$card-body-padding: 0.94em;
+
+// Titles
+$title-margin-top: 1em;
+$Tahoma-font: "Tahoma";
+$title-font-size-xs: 0.712em;
+$title-font-size-lg: 0.812em;
+$title-font-weight-xs: 400;
+$title-font-weight-lg: 500;
+$title-line-height-xs: 0.93em;
+$title-line-height-lg: 1.5em;
+$title-text-align: right;
+$title-hover-color: rgba(209, 103, 1, 1);
+
+// Text
+$text-margin-top: 0.5em;
+$BBCNassim-font: "BBCNassim";
+$text-font-size-xs: 1.125em;
+$text-font-size-lg: 1.025em;
+$text-font-weight: 700;
+$text-line-height-xs: 1.65em;
+$text-line-height-lg: 2.1em;
+$text-color: rgba(0, 0, 0, 1);
+
+// Paragraphs
+$paragraph-margin-top-xs: 1em;
+$paragraph-margin-top-lg: 0.1em;
+$paragraph-font-family-xs: "Peyda";
+$paragraph-font-family-lg: "IRANSans";
+$paragraph-font-size-xs: 0.625em;
+$paragraph-font-size-lg: 0.93em;
+$paragraph-font-weight-xs: 400;
+$paragraph-font-weight-lg: 500;
+$paragraph-line-height-xs: 1.7em;
+$paragraph-line-height-lg: 2.31em;
+
+// Images
+$main-img-width: 44.1em;
+$main-img-height: 28.81em;
+$card-horizontal-max-height: 14.19em;
+$card-horizontal-img-width: 50%;
+$card-horizontal-img-margin: 0.49em;
+
+// News Landing
+$news-title-landing-font-size: 1.1em;
+$news-title-landing-font-weight: 700;
+$news-text-landing-font-size: 1.73em;
+$news-text-landing-line-height: 2.75em;
+$color-news-text-landing: rgba(86, 86, 86, 1);
+$color-news-contant: rgba(105, 111, 150, 1);
+$news-contant-sm-font-size: 0.625em;
+$news-contant-lg-font-size: 1.1em;
+$news-contant-sm-line-height: 2.125em;
+$news-contant-lg-line-height: 3em;
+$news-contant-font-weight: 400;
+
+// Card Statistics
+$card-statistics-item-gap: 0.75em;
+$card-statistics-item-sm-line-height: 2em;
+$card-statistics-item-sm-font-size: 0.625em;
+$card-statistics-item-lg-font-size: 1em;
+$card-statistics-item-color: rgba(12, 24, 107, 1);
+
+// Backgrounds
+$bg-news-landing: rgba(247, 248, 250, 1);
+$bg-photos-related: url(../img/Group\ 34834.png);
+$tag-title-font-size: 0.93em;
+$tag-title-font-weight: 400;
+$tag-title-line-height: 2.3em;
+$bg-tag-title: rgba(26, 27, 29, 1);
+$bg-btn-news-share: rgba(40, 94, 255, 1);
+
+// border
+$news-details-border :0.0375em solid rgba(115, 129, 141, 0.34);
+// end news 
+
+// university notification
+$white: rgba(228, 228, 228, 1);
+$hover-font-date: rgba(255, 149, 24, 1);
+
+
+// footer
+// Variables
+$footer-text-color: #fff;
+$footer-padding: 3em;
+$footer-title-font-size: 1.6em;
+$footer-title-font-weight: 700;
+$footer-title-line-height: 2.125em;
+$footer-title-margin-bottom: 1em;
+$footer-link-font-size: 0.875em;
+$footer-link-font-weight: 400;
+$footer-link-line-height: 1.375em;
+$footer-column-gap: 1.875em;
+$footer-row-gap: 1.125em;
+$footer-padding-inline-start: 1em;
+$footer-sm-rows: 6;
+$footer-lg-title-font-size: 1.75em;
+$footer-lg-title-font-weight: 900;
+$footer-lg-title-line-height: 2.74em;
+$footer-lg-link-font-size: 1em;
+$footer-lg-link-line-height: 2.3em;
+$footer-xl-title-font-size: 2em;
+$footer-xl-title-line-height: 3.1em;
+$sub-addres-font-size: 0.625em;
+$sub-text-font-size: 0.875em;
+$sub-line-height: 1.17em;
+$footer-padding: 2em;
+$copyright-border-color: rgba(247, 249, 252, 0.4);
+$copyright-border-width: 0.0375em;
+
+// uni link
+$logo-for-link-width-sm: 16.25em;
+$logo-for-link-height-sm: 6.44em;
+$logo-for-link-width-md: 20em;
+$logo-for-link-height-md: 9.625em;
+$logo-for-link-width-lg: 11.438em;
+$logo-for-link-height-lg: 4.063em;
+$font-size: 0.875em;
+$font-weight: 400;
+$line-height: 1.25em;
+$text-align: right;
+$color: #ffffff;
+
+
+
+
+// Variables apply
+$apply-bg-image: url(../img/Rectangle\ 222.png);
+$apply-bg-size: cover;
+$apply-bg-repeat: no-repeat;
+$apply-height: 100%;
+$apply-margin: 2.5em 1em 0.25em 1em;
+$apply-border-radius: 0.938em;
+$apply-color: rgba(255, 255, 255, 1);
+$apply-padding: 1.5em;
+$apply-title-font-size: 1.44em;
+$apply-title-font-weight: 700;
+$apply-title-line-height: 2.25em;
+$apply-title-text-align: center;
+$apply-text-font-size: 0.875em;
+$apply-text-font-weight: 400;
+$apply-text-line-height: 1.225em;
+$apply-text-text-align: center;
+$btn-apply-width: 8.31em;
+$btn-apply-height: 3.22em;
+$btn-apply-border-radius: 0.93em;
+$btn-apply-bg: rgba(6, 40, 108, 1);
+$btn-apply-display: flex;
+$btn-apply-justify-content: center;
+$btn-apply-align-items: center;
+$btn-text-apply-font-size: 1.25em;
+$btn-text-apply-font-weight: 700;
+$btn-text-apply-line-height: 1.96em;
+$btn-text-apply-text-align: center;
+$btn-text-apply-color: rgba(255, 255, 255, 1);
+
+// educational-groups 
+
+$bg-white: #ffffff;
+
+$bg-darkBlue: rgba(12, 24, 107, 1);
+$educational-text-color: rgb(175, 175, 175);
+$bg-yellow: rgba(255, 149, 24, 1);
+$bg-statistics-image: url("../img/Frame 34775.png");
+$font-size-13: 0.812em;
+$font-size-16: 1em;
+$font-size-18: 1.125em;
+$font-size-22: 1.3em;
+$font-size-32: 2em;
+$font-size-24: 1.45em;
+$font-size-47: 1.8em;
+$font-weight-500: 500;
+$font-weight-700: 700;
+$line-height-20: 1.25em;
+$line-height-25: 1.53em;
+$line-height-28: 1.8em;
+$line-height-34: 2.2em;
+$line-height-50: 3.1em;
+$line-height-73: 4.6em;
+$bg-h6-color: rgba(0, 33, 71, 1);
+$bg-p-color: rgba(115, 129, 141, 1);
+
+
+
+// statistics 
+$bg-darkBlue: rgba(12, 24, 107, 1);
+$bg-statistics-color: rgb(175, 175, 175);
+$bg-yellow: rgba(255, 149, 24, 1);
+$bg-statistics-image: url("../img/Frame 34775.png");
+$font-size-13: 13px;
+$font-size-16: 16px;
+$font-size-22: 22px;
+$font-size-47: 47px;
+$font-weight-500: 500;
+$font-weight-700: 700;
+$line-height-20: 20.35px;
+$line-height-25: 25.04px;
+$line-height-34: 34.43px;
+$line-height-73: 73.57px;
+$bg-h6-color: rgba(0, 33, 71, 1);
+$bg-p-color: rgba(115, 129, 141, 1);
+
+// event 
+$primary-color: rgba(2, 7, 39, 1);
+$secondary-color: rgba(126, 138, 171, 1);
+$background-color: rgba(0, 5, 43, 1);
+$border-color: #dee2ee;
+$bg-yellow: rgba(255, 149, 24, 1);

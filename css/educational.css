@@ -1,0 +1,112 @@
+.educational-calendar {
+  min-height: 23.63em;
+  background-image: url(../img/Group\ 34848.png);
+  background-size: cover;
+  padding-bottom: 2.5em;
+}
+.educational-calendar ::-webkit-scrollbar {
+  height: 0.4em;
+}
+.educational-calendar ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.educational-calendar ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.educational-calendar .educational-contant {
+  gap: 2.5em;
+  overflow: hidden;
+}
+.educational-calendar .educational-contant .time-container {
+  margin-right: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+  .educational-calendar .educational-contant .time-container {
+    margin: auto;
+  }
+}
+.educational-calendar .educational-contant .time-container .time-lable {
+  text-wrap: nowrap;
+  display: flex;
+  padding: 0 1.5em 1.5em 1.5em;
+  overflow: auto;
+}
+.educational-calendar .educational-contant .time-container .time-lable li {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 2em;
+}
+.educational-calendar .educational-contant .time-container .time-lable li:not(:first-child) {
+  padding-inline-start: 8em;
+}
+.educational-calendar .educational-contant .time-container .time-lable li:not(:first-child)::after {
+  content: "";
+  width: 100% !important;
+  left: 2em;
+}
+.educational-calendar .educational-contant .time-container .time-lable li::after {
+  content: "";
+  width: 50%;
+  background-color: #0c186b;
+  height: 0.35em;
+  display: inline-block;
+  position: absolute;
+  top: 4.5em;
+  left: 1em;
+  z-index: 0;
+}
+.educational-calendar .educational-contant .time-container .time-lable li .time-title,
+.educational-calendar .educational-contant .time-container .time-lable li .time-description {
+  font-size: 0.78em;
+  font-weight: 600;
+  line-height: 1.375em;
+  font-family: "Peyda";
+}
+.educational-calendar .educational-contant .time-container .time-lable li .time-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  color: rgb(125, 2, 2);
+  text-align: center;
+}
+.educational-calendar .educational-contant .time-container .time-lable li .time-description {
+  color: rgb(12, 24, 107);
+  text-align: center;
+}
+.educational-calendar .educational-contant .time-container .time-lable li .circul-wraper {
+  display: flex;
+  justify-content: center;
+}
+.educational-calendar .educational-contant .time-container .time-lable li .circul-wraper .circul {
+  width: 2.19em;
+  height: 2.19em;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 0.25em solid #0c186b;
+  z-index: 1;
+  margin: 1em 0;
+}
+.educational-calendar .educational-contant .time-container .time-lable li .circul-wraper .circul.active {
+  background-color: rgb(125, 2, 2);
+  border: 0.25em solid rgb(191, 196, 213);
+  position: sticky;
+}
+.educational-calendar .educational-calendar-header {
+  font-size: 1.45em;
+  font-weight: 700;
+  line-height: 2.4em;
+  text-align: center;
+  color: rgb(0, 70, 149);
+  margin: 1em 0;
+}
+@media screen and (min-width: 772px) {
+  .educational-calendar .educational-calendar-header {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 3.1em;
+  }
+}/*# sourceMappingURL=educational.css.map */

@@ -1,0 +1,72 @@
+// Variables
+@import "./variables.scss";
+
+.educational-groups {
+  background-color: $bg-white;
+
+  h5.title {
+    font-size: $font-size-24;
+    font-weight: $font-weight-700;
+    line-height: $line-height-34;
+    text-align: center;
+    color: $bg-darkBlue;
+
+    @media screen and (min-width: 768px) {
+      font-size: $font-size-32;
+      line-height: $line-height-50;
+    }
+  }
+  .education-group-item {
+    overflow: auto;
+    gap: 2em;
+
+    .education-item {
+      gap: 1.25em;
+      .education-icon {
+        width: 4em;
+        height: 3em;
+      }
+      .icon {
+        border: 0.0375em solid rgba(189, 197, 221, 1);
+        width: 9em;
+        height: 9em;
+        border-radius: 50%;
+        transition: all 0.3s linear;
+
+        .img-icon {
+          background: rgba(189, 197, 221, 1);
+          width: 7em;
+          height: 7em;
+          border-radius: 50%;
+          transition: all 0.3s linear;
+        }
+      }
+      .education-item-text {
+        font-size: $font-size-16;
+        font-weight: $font-weight-500;
+        line-height: $line-height-25;
+        color: $educational-text-color;
+        transition: all 0.3s linear;
+
+        @media screen and (min-width: 768px) {
+          font-size: $font-size-18;
+          line-height: $line-height-28;
+        }
+      }
+
+      &:hover {
+        opacity: 1;
+        .icon {
+          border-color: $bg-yellow;
+
+          .img-icon {
+            background: $bg-yellow;
+          }
+        }
+        .education-item-text {
+          color: $bg-yellow;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+// Variables
+@import "./variables.scss";
+
+// Styles
+.bg-faculty-uni-info {
+  background-image: $bg-uni-info-image;
+  background-color: $bg-faculty-uni-info;
+}
+.bg-faculty-uni-info,
+.bg-uni-info {
+  background-image: $bg-uni-info-image;
+
+  .landing-title {
+    color: $landing-title-color;
+    // height: $landing-title-height-xs;
+    padding-block: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 0;
+    @media screen and (min-width: 700px) {
+      justify-content: space-between;
+      height: $landing-title-height-md;
+    }
+    span {
+      font-size: $landing-title-font-size-xs;
+      font-weight: $landing-title-font-weight;
+      line-height: $landing-title-line-height-xs;
+      text-align: center;
+      margin: 0;
+      @media screen and (min-width: 700px) {
+        font-size: $landing-title-font-size-md;
+        line-height: $landing-title-line-height-md;
+        // text-align: right;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .landing-title {
+    justify-content: space-between;
+    height: $landing-title-height-md;
+
+    span {
+      font-size: $landing-title-font-size-md;
+      line-height: $landing-title-line-height-md;
+      text-align: right;
+    }
+  }
+}

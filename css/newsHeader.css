@@ -1,0 +1,35 @@
+.breadcrumb-container {
+  margin-top: 12em;
+}
+.breadcrumb-container .breadcrumb-item {
+  margin-right: 2.5em !important;
+  color: rgb(126, 138, 171);
+  font-family: "Peyda";
+  font-size: 0.93em;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: center;
+}
+.breadcrumb-container .breadcrumb-item:first-child {
+  margin-left: 1em !important;
+}
+.breadcrumb-container .breadcrumb-item a {
+  color: rgb(126, 138, 171);
+}
+.breadcrumb-container .breadcrumb-item + .breadcrumb-item::before {
+  height: 1.1em;
+  width: 1.1em;
+  top: 0.35em;
+  left: 6.5em;
+  content: ">" !important;
+  background-image: none;
+}
+
+.news-main-card {
+  margin-top: 8em;
+}
+@media screen and (min-width: 992px) {
+  .news-main-card {
+    margin-top: 3em;
+  }
+}/*# sourceMappingURL=newsHeader.css.map */

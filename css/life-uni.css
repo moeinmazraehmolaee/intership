@@ -1,0 +1,195 @@
+/* General Styles */
+/* .custom-container {
+  padding: 0 !important;
+} */
+.life-in-uni {
+  background-color: #fff;
+  margin-top: 1.5em;
+}
+.life-in-uni .life-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.7;
+  text-align: center;
+  color: #000;
+  width: 100%;
+}
+.life-in-uni .gallery-card,
+.life-in-uni .gallery-card-small {
+  display: block;
+  position: relative;
+  border-radius: 1.3em;
+  overflow: hidden;
+  max-height: 13.2em;
+}
+.life-in-uni .gallery-card:hover,
+.life-in-uni .gallery-card-small:hover {
+  opacity: 1;
+}
+.life-in-uni .gallery-card .last-photo,
+.life-in-uni .gallery-card-small .last-photo {
+  max-height: 12.5em;
+}
+.life-in-uni .gallery-card img,
+.life-in-uni .gallery-card-small img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.life-in-uni .gallery-card .gallery-card-text,
+.life-in-uni .gallery-card .gallery-card-small-text,
+.life-in-uni .gallery-card-small .gallery-card-text,
+.life-in-uni .gallery-card-small .gallery-card-small-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(35, 35, 35, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0.125em 0.125em 0.125em;
+  -webkit-backdrop-filter: blur(0.56em);
+          backdrop-filter: blur(0.56em);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.life-in-uni .gallery-card .gallery-card-text .last-photo,
+.life-in-uni .gallery-card .gallery-card-small-text .last-photo,
+.life-in-uni .gallery-card-small .gallery-card-text .last-photo,
+.life-in-uni .gallery-card-small .gallery-card-small-text .last-photo {
+  max-height: 12.5em;
+}
+.life-in-uni .gallery-card .gallery-card-text .text,
+.life-in-uni .gallery-card .gallery-card-small-text .text,
+.life-in-uni .gallery-card-small .gallery-card-text .text,
+.life-in-uni .gallery-card-small .gallery-card-small-text .text {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 2em;
+  letter-spacing: 0.005em;
+}
+@media screen and (min-width: 768px) {
+  .life-in-uni .gallery-card .gallery-card-text .text,
+  .life-in-uni .gallery-card .gallery-card-small-text .text,
+  .life-in-uni .gallery-card-small .gallery-card-text .text,
+  .life-in-uni .gallery-card-small .gallery-card-small-text .text {
+    font-size: 1.5em;
+    line-height: 1.19em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .life-in-uni .gallery-card .gallery-card-text .text,
+  .life-in-uni .gallery-card .gallery-card-small-text .text,
+  .life-in-uni .gallery-card-small .gallery-card-text .text,
+  .life-in-uni .gallery-card-small .gallery-card-small-text .text {
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 2.1em !important;
+  }
+}
+.life-in-uni .gallery-card .gallery-card-text .small-text,
+.life-in-uni .gallery-card .gallery-card-small-text .small-text,
+.life-in-uni .gallery-card-small .gallery-card-text .small-text,
+.life-in-uni .gallery-card-small .gallery-card-small-text .small-text {
+  color: #fff;
+  font-size: 0.725em;
+  font-weight: 500;
+  line-height: 1.13em;
+  letter-spacing: 0.005em;
+}
+@media screen and (min-width: 768px) {
+  .life-in-uni .gallery-card .gallery-card-text .small-text,
+  .life-in-uni .gallery-card .gallery-card-small-text .small-text,
+  .life-in-uni .gallery-card-small .gallery-card-text .small-text,
+  .life-in-uni .gallery-card-small .gallery-card-small-text .small-text {
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.9em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .life-in-uni .gallery-card .gallery-card-text .small-text,
+  .life-in-uni .gallery-card .gallery-card-small-text .small-text,
+  .life-in-uni .gallery-card-small .gallery-card-text .small-text,
+  .life-in-uni .gallery-card-small .gallery-card-small-text .small-text {
+    font-size: 1em;
+    line-height: 1.6em;
+  }
+}
+.life-in-uni .gallery-card .gallery-card-sub-text,
+.life-in-uni .gallery-card-small .gallery-card-sub-text {
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s ease-in-out;
+  font-size: 0.78em;
+  color: rgb(137, 241, 255);
+  font-weight: 500;
+  line-height: 1.25em;
+  visibility: hidden;
+}
+.life-in-uni .gallery-card:hover .gallery-card-sub-text, .life-in-uni .gallery-card:hover .gallery-card-small-sub-text,
+.life-in-uni .gallery-card-small:hover .gallery-card-sub-text,
+.life-in-uni .gallery-card-small:hover .gallery-card-small-sub-text {
+  padding: 0.8em 0;
+  opacity: 1;
+  height: 0.93em;
+  visibility: visible;
+}
+.life-in-uni .gallery-card {
+  margin: 0.7em;
+}
+@media screen and (min-width: 500px) {
+  .life-in-uni .gallery-card {
+    max-height: 25em;
+  }
+  .life-in-uni .gallery-card .last-photo {
+    max-height: 19.56em;
+  }
+}
+.life-in-uni .gallery-card-small-container {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+@media screen and (min-width: 992px) {
+  .life-in-uni .gallery-card-small-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.life-in-uni .gallery-card-small-container .gallery-card-small {
+  margin: 0.7em 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .life-in-uni .gallery-card {
+    max-height: 25.62em;
+  }
+  .life-in-uni .gallery-card .last-photo {
+    max-height: 100%;
+  }
+  .life-in-uni .life-title {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 3.3em;
+    color: rgb(0, 5, 43);
+  }
+}
+@media screen and (min-width: 992px) {
+  .life-in-uni .gallery-card {
+    max-height: 28em;
+    height: 100%;
+  }
+  .life-in-uni .gallery-card-small {
+    height: 100%;
+  }
+  .life-in-uni .life-title {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 3.1em;
+    color: rgb(0, 70, 149);
+  }
+}/*# sourceMappingURL=life-uni.css.map */

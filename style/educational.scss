@@ -1,0 +1,123 @@
+@import "./variables.scss";
+
+.educational-calendar {
+  min-height: 23.63em;
+  background-image: url(../img/Group\ 34848.png);
+  background-size: cover;
+  padding-bottom: 2.5em;
+  ::-webkit-scrollbar {
+    height: 0.4em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .educational-contant {
+    gap: 2.5em;
+    overflow: hidden;
+
+    .time-container {
+      margin-right: 1em;
+      // overflow: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      @media screen and (min-width: 1024px) {
+        margin: auto;
+      }
+      .time-lable {
+        text-wrap: nowrap;
+        display: flex;
+        padding: 0 1.5em 1.5em 1.5em;
+        overflow: auto;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          // width: 13.5em;
+          position: relative;
+          margin-bottom: 2em;
+          // padding-inline-start: 8em;
+          // &:last-child {
+          //   width: 0;
+          // }
+          &:not(:first-child) {
+            &::after {
+              content: "";
+              width: 100% !important;
+              left: 2em;
+            }
+            padding-inline-start: 8em;
+          }
+          &::after {
+            content: "";
+            width: 50%;
+            background-color: #0c186b;
+            height: 0.35em;
+            display: inline-block;
+            position: absolute;
+            top: 4.5em;
+            left: 1em;
+            z-index: 0;
+          }
+          .time-title,
+          .time-description {
+            // margin-right: -1em;
+            font-size: 0.78em;
+            font-weight: 600;
+            line-height: 1.375em;
+            font-family: $Peyda-font;
+          }
+
+          .time-title {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4em;
+            color: rgba(125, 2, 2, 1);
+            text-align: center;
+          }
+          .time-description {
+            color: rgba(12, 24, 107, 1);
+            text-align: center;
+          }
+          .circul-wraper {
+            display: flex;
+            justify-content: center;
+            .circul {
+              width: 2.19em;
+              height: 2.19em;
+              border-radius: 100%;
+              background-color: rgb(255, 255, 255);
+              border: 0.25em solid #0c186b;
+              z-index: 1;
+              margin: 1em 0;
+              &.active {
+                background-color: rgba(125, 2, 2, 1);
+                border: 0.25em solid rgba(191, 196, 213, 1);
+                position: sticky;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .educational-calendar-header {
+    font-size: 1.45em;
+    font-weight: 700;
+    line-height: 2.4em;
+    text-align: center;
+    color: rgba(0, 70, 149, 1);
+    margin: 1em 0;
+
+    @media screen and (min-width: 772px) {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 3.1em;
+    }
+  }
+}

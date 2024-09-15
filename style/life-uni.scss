@@ -1,0 +1,173 @@
+/* General Styles */
+/* .custom-container {
+  padding: 0 !important;
+} */
+
+@import "./variables.scss";
+
+.life-in-uni {
+  background-color: #fff;
+  margin-top: 1.5em;
+
+  .life-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: center;
+    color: #000;
+    width: 100%;
+  }
+
+  .gallery-card,
+  .gallery-card-small {
+    &:hover{
+      opacity: 1;
+    }
+    display: block;
+    position: relative;
+    border-radius: 1.3em;
+    overflow: hidden;
+    max-height: 13.2em;
+    .last-photo {
+      max-height: 12.5em;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery-card-text,
+    .gallery-card-small-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #fff;
+      background: rgba(35, 35, 35, 0.5);
+      display: flex;
+      flex-direction: column;
+      padding: 1em 0.125em 0.125em 0.125em;
+      backdrop-filter: blur(0.56em);
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+
+      .last-photo {
+        max-height: 12.5em;
+      }
+
+      .text {
+        color: #fff;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2em;
+        letter-spacing: 0.005em;
+        @media screen and (min-width: 768px) {
+          font-size: 1.5em;
+          line-height: 1.19em;
+        }
+        @media screen and (min-width: 992px) {
+          font-size: 1.3em;
+          font-weight: 500;
+          line-height: 2.1em !important;
+        }
+      }
+
+      .small-text {
+        color: #fff;
+        font-size: 0.725em;
+        font-weight: 500;
+        line-height: 1.13em;
+        letter-spacing: 0.005em;
+        @media screen and (min-width: 768px) {
+          font-size: 1.25em;
+          font-weight: 500;
+          line-height: 1.9em;
+        }
+        @media screen and (min-width: 992px) {
+          font-size: 1em;
+          line-height: 1.6em;
+        }
+      }
+    }
+
+    .gallery-card-sub-text {
+      opacity: 0;
+      height: 0;
+      transition: all 0.3s ease-in-out;
+      font-size: 0.78em;
+      color: rgba(137, 241, 255, 1);
+      font-weight: 500;
+      line-height: 1.25em;
+      visibility: hidden;
+    }
+
+    &:hover .gallery-card-sub-text,
+    &:hover .gallery-card-small-sub-text {
+      padding: 0.8em 0;
+      opacity: 1;
+      height: 0.93em;
+      visibility: visible;
+    }
+  }
+
+  .gallery-card {
+    margin: 0.7em;
+    @media screen and (min-width:500px) {
+      max-height: 25em;
+      .last-photo {
+        max-height: 19.56em;
+      }
+    }
+  }
+  .gallery-card-small-container {
+    padding-right: 24px;
+    padding-left: 24px;
+    @media screen and (min-width:992px) {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .gallery-card-small {
+      margin: 0.7em 0 ;
+    }
+  }
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .life-in-uni {
+    .gallery-card {
+      max-height: 25.62em;
+      .last-photo {
+        max-height: 100%;
+      }
+    }
+
+    .life-title {
+      font-size: 2em;
+      font-weight: 900;
+      line-height: 3.3em;
+      color: rgba(0, 5, 43, 1);
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .life-in-uni {
+    .gallery-card {
+      max-height: 28em;
+      height: 100%;
+    }
+
+    .gallery-card-small {
+      height: 100%;
+    }
+
+    .life-title {
+      font-size: 2em;
+      font-weight: 900;
+      line-height: 3.1em;
+      color: rgba(0, 70, 149, 1);
+    }
+  }
+}

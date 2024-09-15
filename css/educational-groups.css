@@ -1,0 +1,66 @@
+.educational-groups {
+  background-color: #ffffff;
+}
+.educational-groups h5.title {
+  font-size: 1.45em;
+  font-weight: 700;
+  line-height: 34.43px;
+  text-align: center;
+  color: rgb(12, 24, 107);
+}
+@media screen and (min-width: 768px) {
+  .educational-groups h5.title {
+    font-size: 2em;
+    line-height: 3.1em;
+  }
+}
+.educational-groups .education-group-item {
+  overflow: auto;
+  gap: 2em;
+}
+.educational-groups .education-group-item .education-item {
+  gap: 1.25em;
+}
+.educational-groups .education-group-item .education-item .education-icon {
+  width: 4em;
+  height: 3em;
+}
+.educational-groups .education-group-item .education-item .icon {
+  border: 0.0375em solid rgb(189, 197, 221);
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.educational-groups .education-group-item .education-item .icon .img-icon {
+  background: rgb(189, 197, 221);
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.educational-groups .education-group-item .education-item .education-item-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.04px;
+  color: rgb(175, 175, 175);
+  transition: all 0.3s linear;
+}
+@media screen and (min-width: 768px) {
+  .educational-groups .education-group-item .education-item .education-item-text {
+    font-size: 1.125em;
+    line-height: 1.8em;
+  }
+}
+.educational-groups .education-group-item .education-item:hover {
+  opacity: 1;
+}
+.educational-groups .education-group-item .education-item:hover .icon {
+  border-color: rgb(255, 149, 24);
+}
+.educational-groups .education-group-item .education-item:hover .icon .img-icon {
+  background: rgb(255, 149, 24);
+}
+.educational-groups .education-group-item .education-item:hover .education-item-text {
+  color: rgb(255, 149, 24);
+}/*# sourceMappingURL=educational-groups.css.map */

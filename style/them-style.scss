@@ -1,0 +1,125 @@
+@import "./variables.scss";
+
+// light style
+.light {
+  // header
+  .main-container::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60%;
+    background: $bg-gradient-light;
+  }
+  // home landing
+  .bg-uni-info {
+    background: rgba(39, 65, 133, 1);
+  }
+  // news
+  .btn-news-archive {
+    a {
+      background: rgba(12, 24, 107, 1);
+    }
+  }
+  .news .news-headline > .news-title {
+    color: rgba(0, 70, 149, 1);
+  }
+
+  //   achievements
+  .achievements {
+    background-color: $dark-blue-color;
+  }
+
+  //  university notification
+  .notification-container {
+    background: rgba(0, 70, 149, 1);
+  }
+  .custom-card:hover .custom-card-header {
+    background: $dark-blue-color;
+    color: $white;
+  }
+
+  // university-info
+  .university-info .university-text .info-title h6 {
+    color: rgba(0, 70, 149, 1);
+  }
+
+  // uni link
+  .uni-link {
+    background-color: $dark-blue-color;
+  }
+
+  //    footer
+  .footer {
+    background-color: $footer-light-color;
+  }
+
+  // event
+  .btn-more-event {
+    background: #0c186b;
+  }
+}
+
+// dark style
+.dark {
+  // Header
+  .main-container::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60%;
+    background: $bg-gradient-dark;
+  }
+
+  // Home landing
+  .bg-uni-info {
+    background-color: $dark-color;
+  }
+
+  // News
+  .btn-news-archive {
+    a {
+      background-color: $dark-color;
+    }
+  }
+  .news .news-headline > .news-title {
+    color: #000 !important;
+  }
+
+  // Achievements
+  .achievements {
+    background-color: $dark-color;
+  }
+
+  // University notification
+  .notification-container {
+    background: $dark-color;
+  }
+
+  .custom-card:hover .custom-card-header {
+    background: $dark-color;
+    color: $white;
+  }
+
+  // university-info
+  .university-info .university-text .info-title h6 {
+    color: #000;
+  }
+  // Uni link
+  .uni-link {
+    background-color: rgba(0, 31, 78, 1);
+  }
+
+  // Footer
+  .footer {
+    background-color: $footer-dark-color;
+  }
+
+  // Event
+  .btn-more-event {
+    background: $footer-dark-color;
+  }
+}

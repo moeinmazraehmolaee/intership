@@ -1,0 +1,509 @@
+.university-info {
+  padding-top: 2em;
+  background-color: #fff;
+  margin-bottom: 3em;
+}
+
+.info-title-mobile span {
+  font-family: "Peyda";
+  font-size: 1.35em;
+  font-weight: 700;
+  line-height: 1.9em;
+  text-align: right;
+  color: rgb(0, 0, 0);
+}
+.info-title-mobile p {
+  font-family: Peyda;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.34em;
+  text-align: right;
+  color: rgb(17, 64, 136);
+  font-family: Peyda;
+}
+
+.university-text-container {
+  padding: 0 1.5em;
+}
+.university-text-container .university-text {
+  background-color: #fff;
+  z-index: 2;
+  padding: 0 1em;
+}
+@media screen and (min-width: 768px) {
+  .university-text-container .university-text {
+    padding-top: 0.5em;
+  }
+}
+.university-text-container .university-text .description {
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 2.5em;
+  text-align: right;
+  color: rgb(98, 110, 148);
+  margin-top: 0.5em;
+  text-align: justify;
+  width: 100%;
+}
+@media screen and (min-width: 700px) {
+  .university-text-container .university-text .description {
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 3em;
+    color: rgb(23, 31, 38);
+  }
+}
+@media screen and (min-width: 772px) {
+  .university-text-container .university-text .description {
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 3em;
+    color: rgb(23, 31, 38);
+  }
+}
+@media screen and (min-width: 992px) {
+  .university-text-container .university-text .description {
+    font-weight: 600;
+    line-height: 2.5em;
+    text-align: justify;
+    color: rgb(98, 110, 148);
+    width: 100%;
+    padding: 0 1em;
+  }
+  .university-text-container .university-text .description .sub-description {
+    font-size: 0.93em;
+    font-weight: 350;
+    line-height: 1.85em;
+    text-align: right;
+    color: #626e94;
+    text-align: justify;
+  }
+  .university-text-container .university-text .description .sub-description .bg-img {
+    max-height: 53.125em;
+    position: relative;
+  }
+  .university-text-container .university-text .description .sub-description .bg-img::before {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 50.15%, #fff 100%);
+  }
+  .university-text-container .university-text .description .sub-description .custom-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .university-text-container .university-text .description {
+    width: 39em;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .university-text-container .university-text .description {
+    width: 43em;
+  }
+}
+@media screen and (min-width: 1776px) {
+  .university-text-container .university-text .description {
+    width: 50em;
+  }
+}
+.university-text-container .university-text .info-title h6 {
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 3.125em;
+}
+.university-text-container .university-text .info-title p {
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.89em;
+  color: rgb(17, 64, 136);
+  margin: 0;
+}
+.university-text-container .university-text .logo-info img {
+  width: 9.69em;
+}
+@media screen and (min-width: 768px) {
+  .university-text-container .university-text .logo-info img {
+    width: 12.91em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .university-text-container .university-text .logo-info img {
+    width: 15em;
+  }
+}
+.university-text-container .btn-group-uni {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-right: 1em;
+}
+.university-text-container .btn-group-uni .btn-uni {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.75em;
+  height: 3.75em;
+  border-radius: 0.93em;
+  transition: all 0.3s linear;
+}
+.university-text-container .btn-group-uni .btn-uni svg {
+  margin-right: 1em;
+  width: 1.5em;
+  height: 1.5em;
+}
+.university-text-container .btn-group-uni .btn-more-information {
+  border: 0.06em solid rgb(149, 154, 189);
+  color: rgb(12, 24, 107) !important;
+  margin-bottom: 1em;
+}
+.university-text-container .btn-group-uni .btn-more-information:hover {
+  background: rgb(149, 154, 189) !important;
+  opacity: 1;
+}
+.university-text-container .btn-group-uni .btn-more-information svg {
+  filter: invert(100);
+}
+.university-text-container .btn-group-uni .btn-reception {
+  margin-top: 0.5em;
+  color: #fff;
+  background: rgb(12, 24, 107) !important;
+}
+.university-text-container .btn-group-uni .btn-reception:hover {
+  background: rgb(149, 154, 189) !important;
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .university-text-container .btn-group-uni {
+    flex-direction: row;
+  }
+  .university-text-container .btn-group-uni .btn-more-information {
+    margin-left: 1em;
+    margin-bottom: 0;
+  }
+  .university-text-container .btn-group-uni .btn-reception {
+    width: 12.94em;
+    margin-top: 0;
+  }
+}
+.university-container {
+  height: 39em;
+  padding: 0;
+  padding-top: 11em;
+  z-index: 0;
+  overflow: hidden;
+}
+@media screen and (min-width: 400px) {
+  .university-container {
+    height: 42em;
+  }
+}
+@media screen and (min-width: 450px) {
+  .university-container {
+    height: 48em;
+  }
+}
+@media screen and (min-width: 540px) {
+  .university-container {
+    height: 54em;
+  }
+}
+@media screen and (min-width: 620px) {
+  .university-container {
+    height: 58em;
+  }
+}
+@media screen and (min-width: 680px) {
+  .university-container {
+    height: 64em;
+  }
+}
+@media screen and (min-width: 970px) {
+  .university-container {
+    height: 70em;
+  }
+}
+.university-container .bg-university-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.university-container .bg-university-info::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(0deg, #fff 0%, #fff 30%, rgba(255, 255, 255, 0) 90%, #fff 100%);
+  z-index: 1;
+  width: 100%;
+  height: 129%;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.018em;
+  right: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 50.15%, #fff 100%);
+}
+.bg-img img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+}
+
+.info-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 0.12em solid #bfc4d5;
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.8s linear;
+  height: 40em;
+}
+@media screen and (min-width: 400px) {
+  .info-item {
+    height: 42em;
+  }
+}
+@media screen and (min-width: 450px) {
+  .info-item {
+    height: 48em;
+  }
+}
+@media screen and (min-width: 540px) {
+  .info-item {
+    height: 54em;
+  }
+}
+@media screen and (min-width: 620px) {
+  .info-item {
+    height: 58em;
+  }
+}
+@media screen and (min-width: 680px) {
+  .info-item {
+    height: 64em;
+  }
+}
+@media screen and (min-width: 970px) {
+  .info-item {
+    height: 70em;
+  }
+}
+
+.custom-info-item {
+  display: flex;
+  flex-direction: column;
+}
+.custom-info-item .item-text {
+  margin-bottom: -1em;
+  margin-right: 0.3em;
+}
+@media screen and (min-width: 992px) {
+  .custom-info-item .item-text {
+    margin-right: 1.3em;
+  }
+}
+.custom-info-item .item-text h4 {
+  font-family: Peyda;
+  font-size: 1.45em;
+  font-weight: 800;
+  line-height: 2.65em;
+  text-align: center;
+}
+.custom-info-item .item-text p {
+  font-family: Peyda;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.75em;
+  text-align: center;
+  color: rgb(126, 138, 171);
+}
+.custom-info-item.item1 {
+  position: absolute;
+  top: -2em;
+  right: 1em;
+}
+@media screen and (min-width: 530px) {
+  .custom-info-item.item1 {
+    right: 4em;
+  }
+}
+@media screen and (min-width: 640px) {
+  .custom-info-item.item1 {
+    right: 6em;
+  }
+}
+@media screen and (min-width: 730px) {
+  .custom-info-item.item1 {
+    right: 7em;
+  }
+}
+.custom-info-item.item2 {
+  position: absolute;
+  top: -9.5em;
+  right: 40%;
+  transform: translate(51%, 0);
+}
+.custom-info-item.item8 {
+  position: absolute;
+  top: -9.5em;
+  right: 60%;
+  transform: translate(51%, 0);
+}
+.custom-info-item.item3 {
+  position: absolute;
+  top: -2em;
+  left: 1em;
+}
+@media screen and (min-width: 530px) {
+  .custom-info-item.item3 {
+    left: 4em;
+  }
+}
+@media screen and (min-width: 640px) {
+  .custom-info-item.item3 {
+    left: 6em;
+  }
+}
+@media screen and (min-width: 730px) {
+  .custom-info-item.item3 {
+    left: 7em;
+  }
+}
+.custom-info-item.item4 {
+  position: absolute;
+  top: 1.23em;
+  left: -2.53em;
+}
+.custom-info-item.item5 {
+  position: absolute;
+  top: 9.37em;
+  left: -7.62em;
+}
+.custom-info-item.item6 {
+  position: absolute;
+  top: 19.63em;
+  left: -8.94em;
+}
+.custom-info-item.item7 {
+  position: absolute;
+  top: 29.75em;
+  left: -3.81em;
+}
+.custom-info-item .custom-info-icon {
+  background-color: rgb(26, 56, 89);
+  width: 4em;
+  height: 4em;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
+}
+@media screen and (min-width: 400px) {
+  .custom-info-item .custom-info-icon {
+    width: 5em;
+    height: 5em;
+  }
+}
+.custom-info-item .custom-info-icon .info-icon {
+  height: 3em;
+  width: 4em;
+}
+@media screen and (min-width: 425px) {
+  .custom-info-item .custom-info-icon .info-icon {
+    height: 4em;
+    width: 5em;
+  }
+}
+.custom-info-item .custom-info-icon .user-icon {
+  width: 0.94em;
+  scale: 3;
+}
+@media screen and (min-width: 992px) {
+  .custom-info-item .custom-info-icon .user-icon {
+    height: 2em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .custom-info-item .custom-info-icon .user-icon {
+    width: 5em;
+  }
+}
+.custom-info-item .custom-info-icon::before {
+  content: "";
+  border: 0.12em solid rgba(191, 196, 213, 0.15);
+  background-color: #fff;
+  position: absolute;
+  border-radius: 100%;
+  top: -0.5em;
+  bottom: -0.5em;
+  left: -0.5em;
+  right: -0.5em;
+  z-index: -1;
+}
+
+.border-circul-container {
+  transform: translateX(27%);
+  position: relative;
+  height: 40.75em;
+  width: 50em;
+  margin-top: 1em;
+  z-index: 1;
+}
+.border-circul-container .bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.border-circul-container .border-circul {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  border-left: 0.12em solid #bfc4d5;
+  z-index: 1500;
+  transition: all 0.8s linear;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 772px) {
+  .custom-info-icon {
+    width: 6em;
+    height: 6em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bg-img {
+    max-height: 53.125em;
+    position: relative;
+  }
+  .bg-img::before {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 50.15%, #fff 100%);
+  }
+  .custom-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=university-info.css.map */

@@ -1,0 +1,226 @@
+.faculty-achievements {
+  background-image: url("../img/Frame 34775.png");
+  background-color: rgb(255, 149, 24);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.faculty-achievements .notification-head {
+  align-items: center;
+}
+.faculty-achievements .notification-head h5 {
+  margin: 0;
+}
+
+.faculty-achievements,
+.achievements {
+  background-image: url("../img/Frame 34775.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 4em;
+}
+@media screen and (max-width: 992px) {
+  .faculty-achievements,
+  .achievements {
+    position: relative;
+    padding-bottom: 9em;
+  }
+}
+.faculty-achievements .achievements-head,
+.achievements .achievements-head {
+  display: flex;
+  justify-content: center;
+  margin: 1.3em 0;
+  padding-top: 1.5em;
+}
+@media screen and (min-width: 992px) {
+  .faculty-achievements .achievements-head,
+  .achievements .achievements-head {
+    padding-top: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 !important;
+  }
+}
+.faculty-achievements .achievements-head .achievements-title,
+.achievements .achievements-head .achievements-title {
+  margin: 0 !important;
+}
+.faculty-achievements .achievements-head h5,
+.achievements .achievements-head h5 {
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 3.3em;
+  color: rgb(228, 228, 228);
+}
+@media screen and (min-width: 768px) {
+  .faculty-achievements .achievements-head h5,
+  .achievements .achievements-head h5 {
+    margin-right: 0.5em;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .faculty-achievements .btn-more-achievement,
+  .achievements .btn-more-achievement {
+    position: absolute;
+    bottom: 2em;
+    right: 0;
+    margin-top: 2.7em;
+    display: flex;
+    justify-content: center;
+  }
+}
+.faculty-achievements .btn-more-achievement a,
+.achievements .btn-more-achievement a {
+  color: rgb(0, 5, 43);
+  background-color: rgb(228, 228, 228);
+  width: 15.81em;
+  height: 3.75em;
+  border-radius: 0.875em;
+  transition: all 0.4s linear;
+  font-family: "Peyda";
+  font-size: 1.25em;
+  font-weight: 400;
+  margin-top: 0.7em;
+  transition: all 0.3s linear;
+  margin-top: 2.5em;
+}
+@media screen and (min-width: 992px) {
+  .faculty-achievements .btn-more-achievement a,
+  .achievements .btn-more-achievement a {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 700px) {
+  .faculty-achievements .btn-more-achievement a,
+  .achievements .btn-more-achievement a {
+    width: 15.56em;
+    height: 3.83em;
+  }
+}
+.faculty-achievements .btn-more-achievement a:hover,
+.achievements .btn-more-achievement a:hover {
+  background: rgb(149, 154, 189);
+  opacity: 1;
+  color: #fff !important;
+}
+
+.achievement-item-wraper .achievements-wraper {
+  row-gap: 1.5em;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card {
+  border-radius: 0.93em;
+  border: 0.0375em solid #dee2ee;
+  margin: 0;
+  height: 100%;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .card-title {
+  font-size: 0.812em;
+  font-weight: 500;
+  line-height: 1.35em;
+  color: rgb(126, 138, 171);
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .card-text {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 2.37em;
+  color: #000;
+  margin: 0.5em 0;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container {
+  position: relative;
+  margin: 0.7em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .custom-card-event-img {
+  height: 27.69em;
+}
+@media screen and (min-width: 992px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .custom-card-event-img {
+    height: 19.7em;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .custom-card-event-img {
+    height: 21.5em;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .custom-card-event-img {
+    height: 24.7em;
+  }
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .card-date {
+  position: absolute;
+  bottom: 0em;
+  right: 0em;
+  top: 0em;
+  left: 0em;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  padding: 1.4em;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .card-date span {
+  font-size: 0.81em;
+  font-weight: 700;
+  line-height: 1.27em;
+  position: absolute;
+  bottom: 1.3em;
+  color: #ffffff;
+  transition: all 0.3s linear;
+}
+@media screen and (min-width: 992px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-event-img-container .card-date span {
+    font-family: "Peyda";
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+  }
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card:hover {
+  opacity: 1;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card:hover .card-title {
+  color: rgb(255, 149, 24);
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card:hover .card-title-achievements {
+  color: rgb(255, 149, 24);
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card:hover .card-text-achievements {
+  color: rgb(12, 24, 107);
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .custom-card-achievements-img {
+  max-height: 20.68em;
+  padding: 0.7em;
+  border-radius: 2em;
+  height: 16.94em;
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .card-title-achievements {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.9em;
+  color: rgb(2, 7, 39);
+  transition: all 0.4s linear;
+}
+@media screen and (min-width: 992px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .card-title-achievements {
+    font-size: 1em;
+    line-height: 2em;
+  }
+}
+.achievement-item-wraper .achievements-wraper .custom-achievements-card .card-text-achievements {
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 1.8em;
+  color: rgb(126, 138, 171);
+  transition: all 0.4s linear;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .achievement-item-wraper .achievements-wraper .custom-achievements-card .card-text-achievements {
+    font-size: 0.93em;
+    line-height: 2.125em;
+  }
+}/*# sourceMappingURL=achievements.css.map */

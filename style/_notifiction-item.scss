@@ -1,0 +1,69 @@
+@import "./variables.scss";
+
+.notification-item-wraper {
+  .custom-card {
+    padding: 0.625em;
+    border-radius: 1.125em;
+    color: #000;
+    &-header-factulty,
+    &-header {
+      font-size: 0.875em;
+      font-weight: 500;
+      line-height: 1.9em;
+      background: $white;
+      border-radius: 0.625em !important;
+      display: flex;
+      transition: all 0.4s linear;
+      color: rgba(5, 15, 44, 1);
+      @media screen and (min-width: 992px) {
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 2.875em;
+      }
+      @media screen and (min-width: 1280px) {
+        align-items: center;
+        height: 3.19em;
+      }
+    }
+
+    &-text {
+      font-size: 0.875em;
+      font-weight: 400;
+      line-height: 1.63em;
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 1em;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+      color: #000;
+      .custom-card-header-factulty {
+        background: $bg-faculty-uni-info;
+        color: #fff;
+      }
+      .card-date {
+        color: $hover-font-date;
+        svg {
+          filter: invert(100);
+        }
+      }
+    }
+    .card-date {
+      display: flex;
+      align-items: center;
+      transition: all 0.4s linear;
+      font-family: $Peyda-font;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      color: rgba(7, 59, 112, 1);
+      gap: 0.3em;
+      svg {
+        width: 1.1em;
+        height: 1.1em;
+        transition: all 0.3s linear;
+      }
+    }
+  }
+}

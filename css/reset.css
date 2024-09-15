@@ -1,0 +1,135 @@
+@font-face {
+  font-family: BBCNassim;
+  src: url("../font/BBCNassim.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSans;
+  src: url("../font/IRANSans.woff2") format("woff2");
+}
+@font-face {
+  font-family: Peyda;
+  src: url("../font/peyda-regular.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+button:focus {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: transparent;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  background-color: #fff;
+  position: relative;
+  font-family: "IRANSans";
+}
+
+ul,
+li {
+  margin: 0 !important;
+}
+
+button svg path {
+  stroke: rgb(0, 5, 43);
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-height: 768px) and (min-width: 1280px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1370px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1380px !important;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1456px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1840px !important;
+  }
+}
+.btn-icon::after {
+  content: "";
+  width: 1.75em;
+  height: 1.438em;
+  background-image: url('data:image/svg+xml,%3Csvg fill="none" viewBox="0 0 24 24" id="arrow-left-broken" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M9.57 5.93 3.5 12l6.07 6.07" stroke="%23ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M12.82 12H3.5" stroke="%23ffffff" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M20.332 12h-3.48" stroke="%23ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  padding-right: 3em;
+}
+
+.btn-icon-dark::after {
+  content: "";
+  width: 1.75em;
+  height: 1.438em;
+  background-image: url("data:image/svg+xml, %3Csvg fill='none' viewBox='0 0 24 24' id='arrow-left-broken' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.57 5.93 3.5 12l6.07 6.07' stroke='%230c186b' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12.82 12H3.5' stroke='%230c186b' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20.332 12h-3.48' stroke='%230c186b' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  padding-right: 3em;
+}/*# sourceMappingURL=reset.css.map */

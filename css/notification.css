@@ -1,0 +1,136 @@
+.notification-container {
+  padding-bottom: 2.6em;
+}
+@media screen and (max-width: 992px) {
+  .notification-container {
+    position: relative;
+    padding-bottom: 7.5em;
+  }
+}
+.notification-container .notification-head {
+  display: flex;
+  justify-content: center;
+  margin: 1.3em 0;
+  padding-top: 2em;
+}
+@media screen and (min-width: 992px) {
+  .notification-container .notification-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.56em 0.31em 1em 0.31em !important;
+  }
+}
+.notification-container .notification-head .achievements-title {
+  margin: 0 !important;
+}
+.notification-container .notification-head h5 {
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 3.3em;
+  color: rgb(228, 228, 228);
+}
+@media screen and (min-width: 768px) {
+  .notification-container .notification-head h5 {
+    margin-right: 0.5em;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .notification-container .btn-more-notification {
+    position: absolute;
+    bottom: 2em;
+    right: 0;
+    margin-top: 2.7em;
+    display: flex;
+    justify-content: center;
+  }
+}
+.notification-container .btn-more-notification a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 5, 43);
+  background-color: rgb(228, 228, 228);
+  width: 12.56em;
+  height: 3.75em;
+  border-radius: 0.875em;
+  transition: all 0.3s linear;
+  font-size: 1.125em;
+  font-weight: 400;
+  margin-top: 0.7em;
+}
+.notification-container .btn-more-notification a:hover {
+  background: rgb(149, 154, 189);
+  opacity: 1;
+  color: #fff !important;
+}
+
+.notification-item-wraper .custom-card {
+  padding: 0.625em;
+  border-radius: 1.125em;
+  color: #000;
+}
+.notification-item-wraper .custom-card-header-factulty, .notification-item-wraper .custom-card-header {
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 1.9em;
+  background: rgb(228, 228, 228);
+  border-radius: 0.625em !important;
+  display: flex;
+  transition: all 0.4s linear;
+  color: rgb(5, 15, 44);
+}
+@media screen and (min-width: 992px) {
+  .notification-item-wraper .custom-card-header-factulty, .notification-item-wraper .custom-card-header {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.875em;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .notification-item-wraper .custom-card-header-factulty, .notification-item-wraper .custom-card-header {
+    align-items: center;
+    height: 3.19em;
+  }
+}
+.notification-item-wraper .custom-card-text {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.63em;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .notification-item-wraper .custom-card-text {
+    font-size: 1em;
+  }
+}
+.notification-item-wraper .custom-card:hover {
+  opacity: 1;
+  color: #000;
+}
+.notification-item-wraper .custom-card:hover .custom-card-header-factulty {
+  background: rgb(255, 149, 24);
+  color: #fff;
+}
+.notification-item-wraper .custom-card:hover .card-date {
+  color: rgb(255, 149, 24);
+}
+.notification-item-wraper .custom-card:hover .card-date svg {
+  filter: invert(100);
+}
+.notification-item-wraper .custom-card .card-date {
+  display: flex;
+  align-items: center;
+  transition: all 0.4s linear;
+  font-family: "Peyda";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: rgb(7, 59, 112);
+  gap: 0.3em;
+}
+.notification-item-wraper .custom-card .card-date svg {
+  width: 1.1em;
+  height: 1.1em;
+  transition: all 0.3s linear;
+}/*# sourceMappingURL=notification.css.map */

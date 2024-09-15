@@ -1,0 +1,84 @@
+@import "./variables.scss";
+
+// Styles
+.apply-container {
+  background-image: url("../img/aplly-bg.jpg");
+  background-position: center center;
+  height: $apply-height;
+  margin: $apply-margin;
+  border-radius: $apply-border-radius;
+  color: $apply-color;
+  padding: $apply-padding;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.938em;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.69) 0%,
+        rgba(0, 0, 0, 0.69) 100%
+      ),
+      rgba(0, 0, 0, 0) 50% / cover no-repeat;
+  }
+  .apply-text {
+    z-index: 1;
+    .apply-title {
+      font-size: $apply-title-font-size;
+      font-weight: $apply-title-font-weight;
+      line-height: $apply-title-line-height;
+      text-align: $apply-title-text-align;
+      margin: 0;
+    }
+    p {
+      font-family: $Peyda-font;
+      font-size: $apply-text-font-size;
+      font-weight: $apply-text-font-weight;
+      line-height: $apply-text-line-height;
+      text-align: $apply-text-text-align;
+    }
+  }
+  .btn-apply {
+    z-index: 1;
+    width: $btn-apply-width;
+    height: $btn-apply-height;
+    border-radius: $btn-apply-border-radius;
+    background: $btn-apply-bg;
+    display: $btn-apply-display;
+    justify-content: $btn-apply-justify-content;
+    align-items: $btn-apply-align-items;
+    .btn-text-apply {
+      font-family: $Peyda-font;
+      font-size: $btn-text-apply-font-size;
+      font-weight: $btn-text-apply-font-weight;
+      line-height: $btn-text-apply-line-height;
+      text-align: $btn-text-apply-text-align;
+      color: $btn-text-apply-color;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .apply-container {
+    padding: 2em;
+    .apply-text {
+      .apply-title {
+        font-size: 2em;
+        line-height: 3.1em;
+      }
+      p {
+        font-size: 1.45em;
+        font-weight: 500;
+        line-height: 2.35em;
+      }
+    }
+    .btn-apply {
+      width: 15em;
+      height: 4.87em;
+    }
+  }
+}

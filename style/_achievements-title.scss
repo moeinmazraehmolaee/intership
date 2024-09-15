@@ -1,0 +1,89 @@
+@import "./variables.scss";
+
+.faculty-achievements {
+  background-image: $bg-uni-info-image;
+  background-color: $bg-faculty-uni-info;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .notification-head {
+    align-items: center;
+    h5 {
+      margin: 0;
+    }
+  }
+}
+.faculty-achievements,
+.achievements {
+  background-image: $bg-uni-info-image;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 4em;
+  @media screen and (max-width: 992px) {
+    position: relative;
+    padding-bottom: 9em;
+  }
+  .achievements-head {
+    display: flex;
+    justify-content: center;
+    margin: 1.3em 0;
+    padding-top: 1.5em;
+    @media screen and (min-width: 992px) {
+      padding-top: 2.5em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 !important;
+    }
+    .achievements-title {
+      margin: 0 !important;
+    }
+    h5 {
+      font-size: 1.5em;
+      font-weight: 900;
+      line-height: 3.3em;
+      color: $white;
+      @media screen and (min-width: 768px) {
+        margin-right: 0.5em;
+        font-size: 2em;
+      }
+    }
+  }
+  .btn-more-achievement {
+    @media screen and (max-width: 992px) {
+      position: absolute;
+      bottom: 2em;
+      right: 0;
+      margin-top: 2.7em;
+      display: flex;
+      justify-content: center;
+    }
+    a {
+      color: $dark-color;
+      background-color: $white;
+      width: 15.81em;
+      height: 3.75em;
+      border-radius: 0.875em;
+      transition: all 0.4s linear;
+      font-family: $Peyda-font;
+      font-size: 1.25em;
+      font-weight: 400;
+      margin-top: 0.7em;
+      transition: all 0.3s linear;
+      margin-top: 2.5em;
+      @media screen and (min-width: 992px) {
+        margin-top: 0;
+      }
+
+      @media screen and (min-width: 700px) {
+        width: 15.56em;
+        height: 3.83em;
+      }
+
+      &:hover {
+        background: rgba(149, 154, 189, 1);
+        opacity: 1;
+        color: #fff !important;
+      }
+    }
+  }
+}

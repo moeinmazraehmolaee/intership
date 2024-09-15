@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+.related-news {
+  margin-bottom: 0em !important;
+
+  background: $bg-related-news;
+}
+  .news-headline > .news-title {
+    color: #000000;
+  }
+  .related-news-wraper {
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 0;
+    padding-right: 0.2em;
+    @media screen and (min-width: 1100px) {
+      padding-right: 0em;
+    }
+    .news-card {
+      min-width: 20em;
+    }
+    .related-news-item {
+      min-width: 18.44em;
+    }
+  }
+

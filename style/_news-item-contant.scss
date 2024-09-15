@@ -1,0 +1,14 @@
+@import "./variables.scss";
+.news-item-contant {
+  .news-contant {
+    font-size: $news-contant-sm-font-size;
+    font-weight: $news-contant-font-weight;
+    line-height: $news-contant-sm-line-height;
+    color: $color-news-contant;
+
+    @media screen and (min-width: 768px) {
+      font-size: $news-contant-lg-font-size;
+      line-height: $news-contant-lg-line-height;
+    }
+  }
+}

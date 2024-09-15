@@ -1,0 +1,33 @@
+.ending-page {
+  position: relative;
+  margin-top: 10em;
+  /* width: 100%; */
+}
+.ending-page .endImg {
+  background-image: url("../img/ending-image.jpg");
+  height: 8.063em;
+  width: 100%;
+  background-size: cover;
+  background-position: center 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0em;
+  right: 0em;
+  z-index: 0;
+}
+.ending-page .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 200%);
+  z-index: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .ending-page {
+    margin-top: 17em;
+  }
+  .ending-page .endImg {
+    height: 16.625em;
+  }
+}/*# sourceMappingURL=endImg.css.map */

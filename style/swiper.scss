@@ -1,0 +1,205 @@
+.swiper-container {
+  background-image: url("../img/Group 34834.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7em 0;
+  margin: -9em 0;
+  .container {
+    position: relative;
+    padding-top: 1em;
+    @media screen and (min-width: 992px) {
+      padding-top: 4em;
+    }
+    .swiper {
+      width: 100%;
+      // height: 300px;
+      margin-bottom: 4em;
+      position: relative;
+      padding-left: 1em;
+      .swiper-wrapper {
+        height: 17em;
+        @media screen and (min-width: 610px) and (max-width: 780px) {
+          gap: 3em;
+        }
+        .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.2em;
+          color: white;
+          overflow: hidden;
+
+          width: auto !important;
+          // @media screen  and (min-width:679px){
+          //   margin-left: -5em !important;
+          // }
+
+          img {
+            width: 7.5em;
+            height: 6.5em;
+            margin: 1em;
+            border-radius: 0.93em;
+            @media screen and (min-width: 768px) {
+              width: 20em;
+              height: 11em;
+            }
+            @media screen and (min-width: 992px) {
+              width: 24em;
+              height: 14.81em;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .swiper-wrapper {
+          overflow: auto;
+          transform: translate(0) !important;
+        }
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 3.125em;
+      height: 3.125em;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      position: absolute;
+      // top: 27%;
+      z-index: 1;
+      top: 59%;
+      // transform: rotate(180deg);
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+      .swiper-icon {
+        width: 1.81em;
+        height: 1.81em;
+      }
+    }
+    .swiper-button-prev {
+      right: -1%;
+      // top: 50.2%;
+      left: auto;
+    }
+    .swiper-button-next {
+      left: -0.3%;
+      right: auto;
+      transform: rotate(180deg);
+    }
+  }
+}
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(12, 25, 40, 0.7);
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  &.show {
+    @media screen and (min-width: 768px) {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .modalSwiper-container {
+    position: fixed;
+    top: 10%;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+
+    .modalSwiper {
+      width: 62em;
+      height: 43em;
+      position: relative;
+      padding: 1em;
+      overflow: hidden;
+      @media screen and (min-width: 992px) {
+        width: 73em;
+        height: 46em;
+      }
+      .swiper-wrapper {
+        height: auto;
+
+        .swiper-slide {
+          padding: 0 2em;
+          overflow: hidden;
+          width: auto !important;
+          img {
+            width: 58em;
+            height: 40em;
+            border-radius: 0.93em;
+            margin: 0.5em;
+            @media screen and (min-width: 992px) {
+              width: 66.62em;
+              height: 43.94em;
+            }
+          }
+        }
+      }
+      .swiper-button-prev,
+      .swiper-button-next {
+        z-index: 1;
+        width: 3.125em;
+        height: 3.125em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        position: absolute;
+        .swiper-icon {
+          width: 1.81em;
+          height: 1.81em;
+        }
+      }
+      .swiper-button-prev {
+        right: 5em;
+        transform: rotate(-180deg);
+      }
+      .swiper-button-next {
+        left: 3em;
+      }
+    }
+  }
+}
+.swiper-button-next::after,
+.swiper-button-prev:after {
+  content: none !important;
+}
+
+body:dir(rtl) {
+  .swiper-slide {
+    margin-left: 2em !important;
+    @media screen and (min-width: 500px) {
+      margin-left: 0 !important;
+    }
+    @media screen and (min-width: 620px) {
+      margin-left: -4em !important;
+    }
+    @media screen and (min-width: 768px) {
+      margin-left: 1em !important;
+    }
+  }
+}
+
+body:dir(ltr) {
+  .swiper-slide {
+    margin-left: 0 !important;
+    margin-right: 2em !important;
+
+    @media screen and (min-width: 500px) {
+      margin-right: 0 !important;
+    }
+    @media screen and (min-width: 620px) {
+      margin-right: -4em !important;
+    }
+    @media screen and (min-width: 768px) {
+      margin-right: 1em !important;
+    }
+  }
+}
